@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # AWS S3 Configuration
-S3_BUCKET = "s3-upload-22025 "
+S3_BUCKET = "s3-upload-22025"
 S3_REGION = "us-east-1"  # Change to your region
 
 # Initialize S3 client
